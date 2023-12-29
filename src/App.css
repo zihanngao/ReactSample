@@ -1,0 +1,61 @@
+.sidebar {
+  width: calc(20vw - 5px);
+  margin-left: 5px;
+  height: calc(100vh - 10px);
+  position: fixed;
+}
+
+.star {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.star-disabled {
+  filter: grayscale(100%);
+}
+
+.rating {
+  font-weight: 700;
+}
+
+.cartButton{
+  margin-right: 500px;
+  margin-top: 500px;
+  position: fixed;
+}
+
+.courseCard{
+  flex-direction: row;
+  align-items: center;
+}
+
+.cardImg{
+  width: 100px;
+  height: 100px;
+}
+
+.cardbody{
+  margin-left: 10px;
+}
+
+.twoButton{
+  text-align: right;
+}
+
+.floatButton{
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+
+}
+
+.courseName{
+  color: 0d6efd !important;
+}
+
+.courseName:hover{
+  color: 0d6efd !important;
+  cursor: pointer !important;
+}
+
